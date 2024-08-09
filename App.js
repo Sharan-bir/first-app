@@ -25,7 +25,7 @@ export default function App() {
       setSelectedImage(result.assets[0].uri);
       setShowAppOptions(true);
     } else {
-      alert('You did not select any Photo.');
+      alert('You did not select any photo.');
     }
   };
   const onReset = () => {
